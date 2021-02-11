@@ -124,9 +124,9 @@ def WBneut_counts(df):
     rasio = []
 
     for neut in neutanslist:
-        totalneut = list(df[df['value'] == neut]['statistic'])
+        totalneut = list(df[df['Answers'] == neut]['SMEs'])
         neutlist = neutlist +totalneut
-        lenght =list(df[df['value'] == neut]['total_asked'])
+        lenght =list(df[df['Answers'] == neut]['total_asked'])
         lenlist = lenlist+lenght
     for i in neutlist:
         for j in lenlist:
