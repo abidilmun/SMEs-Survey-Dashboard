@@ -281,7 +281,7 @@ st.markdown('<h1 align = "center">SMEs Survey Data</h1>',unsafe_allow_html=True)
 st.subheader('Summary')
 st.markdown('<p align = "justify">Datas used in the analysis are the ones coming from two resources. The first data is taken from the World Bank Data Catalog which consist of 2019 survey of SMEs worldwide including 448 Indonesian SMEs. The second one is coming from a 2020 survey dataset of 325 Indonesian SMEs deposited to Mendeley by researchers from Universitas Indonesia.</p>',unsafe_allow_html = True) 
 pie_neutral()
-st.markdown('<p align = "justify">For a brief shape, the datas contains small amount of neutral answers or answers that suggest business owner prefers not to disclose the state of their business</p>',unsafe_allow_html = True)
+st.markdown('<p align = "justify">For a brief shape, the datas contain small amount of neutral answers or answers that suggest business owner prefers not to disclose the state of their business</p>',unsafe_allow_html = True)
 st.markdown('<p align = "justify">Based on the survey, SMEs are strunggling to find skilled employes, attracting customers, and developing innovative products. These are the top 3 challenges faced by our SMEs. the rest found it hard to deal with financing and official regulations. Most of the answers suggest that these businesses hope for a better reach and understanding over local and international customers - which means they didn\'t - as well as better advertisement.</p>',unsafe_allow_html = True)     
 
 
