@@ -199,8 +199,8 @@ def expectation():
 def UpSkill():
     x = upskill['Answers']
     y = upskill['SMEs']
-    fig = px.histogram(upskill,x = y,y = x, height = 300)
-    fig.update_layout(margin=dict(l=100, r=0, t=100, b=100))
+    fig = px.histogram(upskill,x = x,y = y, height = 300)
+    fig.update_layout(margin=dict(l=200, r=200, t=20, b=20))
     st.plotly_chart(fig)
     
 def enetsales():    
