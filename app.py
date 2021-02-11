@@ -96,6 +96,7 @@ perfodict = {
 
 challenges['Answers'][1803] = 'Government regulations'
 sector['Answers'][7565] = 'Services'
+sector['Answers'][7563] = 'Construction'
 
 # dataframe manipulation function
 
