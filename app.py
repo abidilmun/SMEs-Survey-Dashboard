@@ -178,21 +178,21 @@ def challenge():
     x = challenges['Answers']
     y = challenges['SMEs']
     fig = px.histogram(challenges,x = y,y = x)
-    fig.update_layout(margin=dict(l=510, r=0, t=0, b=0))
+    fig.update_layout(margin=dict(l=100, r=0, t=20, b=20))
     st.plotly_chart(fig) 
 
 def digital_anxiety():    
     x = online_anxiety['Answers']
     y = online_anxiety['SMEs']
     fig = px.histogram(online_anxiety,x = y,y = x)
-    fig.update_layout(margin=dict(l=100, r=0, t=0, b=0))
+    fig.update_layout(margin=dict(l=100, r=0, t=20, b=20))
     st.plotly_chart(fig)
     
 def expectation():
     x = expected_thing_to_have['Answers']
     y = expected_thing_to_have['SMEs']
     fig = px.histogram(expected_thing_to_have,x = y,y = x)
-    fig.update_layout(margin=dict(l=100, r=0, t=0, b=0))
+    fig.update_layout(margin=dict(l=100, r=0, t=20, b=20))
     st.plotly_chart(fig)
     
 def UpSkill():
@@ -205,14 +205,14 @@ def enetsales():
     x = ecommerce_netsales['Answers']
     y = ecommerce_netsales['SMEs']
     fig = px.histogram(ecommerce_netsales,x = y,y = x)
-    fig.update_layout(margin=dict(l=80, r=0, t=0, b=0))
+    fig.update_layout(margin=dict(l=100, r=0, t=20, b=20))
     st.plotly_chart(fig)
     
 def online_target():
     x = ecommerce_customer_target['Answers']
     y = ecommerce_customer_target['SMEs']
     fig = px.histogram(ecommerce_customer_target,x = y,y = x)
-    fig.update_layout(margin=dict(l=100, r=0, t=0, b=0))
+    fig.update_layout(margin=dict(l=100, r=0, t=20, b=20))
     st.plotly_chart(fig)
     
 def orderingViaEcommerce():     
@@ -231,35 +231,35 @@ def Sector():
     x = sector['Answers']
     y = sector['SMEs']
     fig = px.histogram(sector,x = y,y = x)
-    fig.update_layout(margin=dict(l=650, r=0, t=0, b=0))
+    fig.update_layout(margin=dict(l=100, r=0, t=20, b=20))
     st.plotly_chart(fig)
 
 def eorderWithinHomeCountry():
     x = ecommerce_orders_within_home_country['Answers']
     y = ecommerce_orders_within_home_country['SMEs']
     fig = px.histogram(ecommerce_orders_within_home_country,x = y,y = x)
-    fig.update_layout(margin=dict(l=100, r=0, t=0, b=0))
+    fig.update_layout(margin=dict(l=100, r=0, t=20, b=20))
     st.plotly_chart(fig)
 
 def eordersreceived():    
     x = ecommerce_orders_received['Answers']
     y = ecommerce_orders_received['SMEs']
     fig = px.histogram(ecommerce_orders_received,x = y,y = x)
-    fig.update_layout(margin=dict(l=100, r=0, t=0, b=0))
+    fig.update_layout(margin=dict(l=100, r=0, t=20, b=20))
     st.plotly_chart(fig)
 
 def ebuspurchase():    
     x = ecommerce_business_purchase['Answers']
     y = ecommerce_business_purchase['SMEs']
     fig = px.histogram(ecommerce_business_purchase,x = y,y = x)
-    fig.update_layout(margin=dict(l=100, r=0, t=0, b=0))
+    fig.update_layout(margin=dict(l=100, r=0, t=20, b=20))
     st.plotly_chart(fig)
 
 def formarketchal():    
     x = foreign_market_challenge['Answers']
     y = foreign_market_challenge['SMEs']
     fig = px.histogram(foreign_market_challenge,x = y,y = x)
-    fig.update_layout(margin=dict(l=100, r=0, t=0, b=0))
+    fig.update_layout(margin=dict(l=100, r=0, t=20, b=20))
     st.plotly_chart(fig)
 
 wdywk1 = [
